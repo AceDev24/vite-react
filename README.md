@@ -1,6 +1,6 @@
 # Vite-React-Portfolio
 - This is a portfolio web application built using Node.js, Vite, and React. The data is fetched from a Laravel PHP API which has been specifically developed for this project.
-#How to run the application
+# How to run the application
 ## Follow these steps to run the application on your local machine:
 - Clone the GitHub repository into your local machine's VS Code workspace.
 - Open a terminal window in VS Code.
