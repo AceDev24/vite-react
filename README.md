@@ -7,5 +7,5 @@
 - Change the directory to the project's root directory by running the following command in the terminal: cd <project-directory-name>
 - Install the required Node modules by running the following command in the terminal: npm i
 - After installation, run the following command in the terminal to start the application: npm run dev
-- The application will now be running on your local machine. You can access it by opening your web browser and navigating to http://localhost:3000.
+- The application will now be running on your local machine. You can access it by opening your web browser and navigating to http://localhost:3000 or http://localhost:5173/.
 - That's it! You should now be able to view the portfolio web application on your local machine.
