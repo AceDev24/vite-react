@@ -3,19 +3,18 @@ import React from 'react'
 const About = () => {
   return (
     
-    <section id='about' className='container'>
-      <div className='row'>
-        <div className='col-5 text-center'>
-          <img src="./Harsh.jpeg" alt="" className='about-img' />
+    <section id='about' className='container mh-100 card '>
+      
+      <div className='row p-5'>
+        <div className='col-md-4 text-center'>
+          <img src="./home-photo.png" alt="" className='about-img' />
         </div>
-        <div className='col-7 description'>
+        <div className='col-md-7 '>
           <h4>About Me</h4>
           <h2>Welcome to My Profile</h2>
-          <p>Hello I'm Harshadkumar Patel, a passionate web developer with three years of experience in building responsive and dynamic websites. I have expertise in HTML, CSS, JavaScript, Node.js, jQuery, PHP, ASP.NET, MySQL, and several web development frameworks such as Laravel, and React.
-
-I believe in creating user-centric web experiences that are visually stunning and highly functional. My aim is to deliver clean and efficient code that not only meets but exceeds my client's expectations. I am always eager to take on new challenges. When I am not coding, you can find me exploring new technologies, attending tech conferences, or contributing to open-source projects. 
-
-If you have a project that you would like to discuss, please feel free to contact me. Let's create something great together!</p>
+          <p class="text-justify">Hello, I'm Harshadkumar Patel, but I prefer to be called Harsh Patel. I am a passionate Full-Stack Web Developer with three years of experience in the field of Web Development and a strong background in IT. I hold a Bachelor's degree in Computer Science and Engineering, and I am currently pursuing a Post Graduate in Web Development at Humber College to further enhance my skills and knowledge.</p>
+          <p class="text-justify">Throughout my career, I have developed a strong proficiency in various web technologies and frameworks. My expertise includes front-end and back-end development using HTML, CSS, JavaScript, MERN stack, PHP, C#, ASP.NET MVC Framework, Python, JAVA, and MYSQL. I have a keen eye for detail and deliver high-quality, user-friendly web applications. I excel in solving complex problems and enjoy collaborating with cross-functional teams.</p>
+          <p class="text-justify">Continuous learning and staying updated with industry trends are crucial to me. I possess excellent communication and problem-solving skills, which allow me to thrive in both independent and team-oriented environments. I am dedicated, driven, and passionate about creating exceptional web experiences in the ever-evolving world of technology.</p>
         </div>
       </div>
     </section>

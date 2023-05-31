@@ -21,17 +21,17 @@ const Projects = () => {
   return (
     <section id='projects' className='projects container'>
         <h4>Projects</h4>
-        <h2>My Latest Project</h2>
+        <h2>My Latest Projects</h2>
         <div className='row'>
           {projects && projects.map((item, index) => {
             return(
-              <div key={index} className='col-4 text-center'>
-                <div className='card'>
+              <div key={index} className='col-lg-4 col-md-6 '>
+                <div className='card border border-dark'>
                   <img src={item?.image} alt="" className='project-img'/>
-                  <h5>{item?.title}</h5>
-                  <span className='type'><em>{item?.type?.title}</em></span>
-                  <p>{item.content}</p>
-                  <button onClick={() => window.open(item?.url, "_blank")} className='btn btn-primary'>View</button>
+                  <h5 class="text-center">{item?.title}</h5>
+                  <span className='type text-center'><em>{item?.type?.title}</em></span>
+                  <p className='text-justify'>{item.content}</p>
+                  <button onClick={() => window.open(item?.url, "_blank")} className='btn btn-primary btn-sm'>View</button>
                 </div>
               </div>
               )

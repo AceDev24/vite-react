@@ -18,18 +18,18 @@ const Entries = () => {
 
   return (
     <section id='entries' className='entries container'>
-        <h4>Entries</h4>
-        <h2>My Latest Entries</h2>
+        <h4>Blog</h4>
+        <h2>My Latest Blog</h2>
         <div className="row justify-content-center">  
         <div className="accordion faq-accordian" id="faqAccordion">
             {entries && entries.map((item, index) => {
             return(
                 <div key={index} className="card border-0 my-3">
-                <div className="card-header" id="headingOne">
+                <div className="card-header bg-dark text-light" id="headingOne">
                     <h6 className="mb-0">{item?.title}</h6>
                 </div>
                 
-                    <div className="card-body">
+                    <div className="card-body border border-dark">
                         <p>{item?.content}</p>
                     </div>
                 

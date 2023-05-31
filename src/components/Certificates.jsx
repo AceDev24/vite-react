@@ -23,8 +23,8 @@ const Certificates = () => {
         <div className='row'>
           {certificates && certificates.map((item, index) => {
             return(
-              <div key={index} className='col-4'>
-                <div className='card text-center'>
+              <div key={index} className='col-md-4'>
+                <div className='card text-center border border-dark'>
                   <img src={item?.image} alt="" className='certificate-img'/>
                   <a className="certificate-link" onClick={() => window.open(item?.url, "_blank")}>{item?.title}</a>
                 </div>

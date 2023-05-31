@@ -23,7 +23,7 @@ const Skill = () => {
         <div className='row'>
         {skills && skills.map((item, index) => {
             return(
-            <div key={index} className='col-2'>
+            <div key={index} className='col-md-4 col-sm-4 col-6 card'>
                 <div className='skills-item text-center' onClick={() => window.open(item?.url, "_blank")}>
                 <img src={item?.image} alt="" className='skills-img'/>
                 <p className='skills-description'>{item?.title}</p>
