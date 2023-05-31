@@ -1,14 +1,17 @@
 html {
     scroll-behavior: smooth;
 }
+
 .banner {
     padding: 100px 0;
     height: auto;
 }
-img{
+
+img {
     max-width: 100%;
     height: auto;
 }
+
 .banner h3 {
     font-size: 3.2rem;
     font-weight: 700;
@@ -244,50 +247,52 @@ section h2 {
     border-left: 1px dashed #563D7C;
     bottom: 0;
 }
-form{
+
+form {
     /* border: 1px solid lightgray;
     border-radius: 10px; */
     padding: 20px;
 }
+
 form {
     display: flex;
     flex-direction: column;
     max-width: 400px;
     margin: 0 auto;
     padding: 20px;
-  }
-  
-  label {
+}
+
+label {
     font-weight: bold;
     margin-bottom: 5px;
-  }
-  
-  input[type="text"],
-  input[type="email"],
-  textarea {
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 5px;
     border: 1px solid #ccc;
     resize: none;
-  }
-  
-  button[type="submit"] {
+}
+
+button[type="submit"] {
     padding: 10px 20px;
     border-radius: 5px;
     border: none;
     color: #fff;
     background-color: green;
     cursor: pointer;
-  }
-  
-  /* Media queries for responsiveness */
-  @media screen and (max-width: 480px) {
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 480px) {
     form {
-      max-width: auto;
+        max-width: auto;
     }
-  }
-  
+}
+
 
 
 /* source citation Resume Box End https://www.bootdey.com/snippets/view/Experience-resume-page ---------------------*/
@@ -297,9 +302,12 @@ form {
     padding: 80px 30px;
 }
 
-@media(max-width:1199px){
-    .banner h1 { font-size: 4rem; }
+@media(max-width:1199px) {
+    .banner h1 {
+        font-size: 4rem;
+    }
 }
+
 @media(max-width: 991px) {
     .banner .row {
         flex-direction: column-reverse;
@@ -310,12 +318,15 @@ form {
         font-weight: 700;
         text-align: center;
     }
+
     .banner h3:nth-last-of-type(2) {
         margin-bottom: 2rem;
     }
+
     span {
         color: #20669a;
     }
+
     .banner h1 {
         font-size: 60px;
         width: auto;
@@ -323,13 +334,16 @@ form {
         margin-left: 20px;
         margin-right: 20px;
     }
+
     .banner p {
         font-size: 1.2rem;
         text-align: center;
     }
-    .social-media{
+
+    .social-media {
         text-align: center;
     }
+
     .social-media a {
         display: inline-flex;
         justify-content: center;
@@ -342,16 +356,21 @@ form {
         border-radius: 10%;
         transition: .5s ease;
     }
-    
+
     .social-media a:hover {
         background-color: lightgrey;
     }
-    .banner,.btn, a{
+
+    .banner,
+    .btn,
+    a {
         text-align: center;
     }
-    .btn a{
+
+    .btn a {
         padding: 10px;
     }
+
     section {
         padding: 60px 0;
     }
@@ -363,17 +382,20 @@ form {
         margin: 0;
         height: auto;
     }
+
     .banner h1 {
         font-size: 40px;
         width: auto;
         margin: 0;
         text-align: center;
     }
+
     .home-img {
         margin: 30px 0 0;
         height: auto;
         width: auto;
     }
+
     section {
         padding: 50px 0;
     }

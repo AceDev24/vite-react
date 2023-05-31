@@ -6,7 +6,7 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-   // form.current.value = '';
+    // form.current.value = '';
     emailjs.sendForm('service_8el27gi', 'template_002nzbg', form.current, 'pGS0VpPbXDzyXetsZ')
       .then((result) => {
         console.log('SUCCESS!', result.text);
@@ -20,12 +20,11 @@ const Contact = () => {
   };
 
   return (
-    <section id='contact' className='contact container'>
-      <div className='row'>
-        <h4>Contact</h4>
-        <h2>Get in Touch</h2>
-        <p>Fill out our form and I will get back to You ASAP</p>
-        <div className='row justify-content-center border border-dark'>
+    <section id='contact' class='contact container'>
+      <h2 class="text-center">Contact</h2>
+      <p class="text-center">Fill out the form and I will get back to you as soon as possible!</p>
+      <div class='row'>
+        <div class='row justify-content-center card border border-dark'>
           <form ref={form} onSubmit={sendEmail}>
             <label>Name</label>
             <input type="text" name="from_name" placeholder='John Smit' required />

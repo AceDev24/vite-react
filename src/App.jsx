@@ -18,7 +18,7 @@ function App() {
 
   return (
     <div>
-      
+
       <Header />
 
       <Banner />
@@ -34,9 +34,9 @@ function App() {
       <Certificates />
 
       <Entries />
-      
-      <Contact/>
-      
+
+      <Contact />
+
       <Footer />
     </div>
   )
