@@ -19,19 +19,17 @@ const Skill = () => {
   return (
     <section id='skills' class='skills container'>
       <h2 class="text-center">Skills</h2>
-      <p class="text-center">Programming Languages & Tools</p>
-      <div class='row'>
-        {skills && skills.map((item, index) => {
-          return (
-            <div key={index} class='col-lg-4 col-md-6 card'>
-              <div class='skills-item text-center' onClick={() => window.open(item?.url, "_blank")}>
-                <img src={item?.image} alt="" class='skills-img' />
-                <p class='skills-description'>{item?.title}</p>
-              </div>
-            </div>
-          )
-        })}
-      </div>
+      <p class="text-center">Javascript</p>
+      <p class="text-center">Python</p>
+      <p class="text-center">PHP</p>
+      <p class="text-center">React</p>
+      <p class="text-center">Laravel</p>
+      <p class="text-center">CSS</p>
+      <p class="text-center">ASP.NET</p>
+      <p class="text-center">C#</p>
+      <p class="text-center">Java</p>
+
+      
     </section>
   )
 }

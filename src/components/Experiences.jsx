@@ -24,21 +24,18 @@ const Experiences = () => {
                 </div>
                 <div class="row">
                     <div class="col-12 m-15px-tb">
-                        <div class="resume-box border border-dark">
-                            <ul>
-                                {experiences && experiences.map((item, index) => {
-                                    return (
-                                        <li key={index}>
-                                            <div class="icon border border-dark">
-                                                <i class="fas fa-briefcase "></i>
-                                            </div>
-                                            <span class="time">{new Date(item?.start_date).getFullYear()} - {new Date(item?.end_date).getFullYear()}</span>
-                                            <h5>{item?.job_title} - {item?.company_name}</h5>
-                                            <p>{item?.description}</p>
-                                        </li>
-                                    )
-                                })}
-                            </ul>
+                        <div class="resume-box border border-dark " >
+                            
+                                Developed and maintained user interfaces using React and modern JavaScript frameworks<br/>
+Implemented React Router for dynamic routing and seamless navigation within
+the application<br/>
+Employed Redux-Saga for managing side effects in a clean and manageable way<br/>
+Optimized rendering performance using the Virtual DOM and React.memo for
+component memoization<br/>
+Integrated RESTful APIs and ensured smooth data flow between the front-end and
+back-end services<br/>
+Conducted code reviews and implemented best practices to maintain high code
+quality and performance<br/>
                         </div>
                     </div>
                 </div>

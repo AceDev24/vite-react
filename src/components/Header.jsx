@@ -3,9 +3,7 @@ import React from 'react'
 const Header = () => {
     return (
         <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light p-3 py-4 py-lg-0 px-lg-5 px-4">
-            <a href="index.html" class="navbar-brand ml-lg-3">
-                <img src="./HarshLogo.png" alt="website logo" width="60" height="60" />
-            </a>
+            
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
